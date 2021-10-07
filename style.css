@@ -1,12 +1,19 @@
 body {
     font-family: sans-serif;
     color:black;
+    box-sizing: border-box;
 }
 
-.textColumn{
-    position: absolute;
-    left: 65%;
-    top: 550px;
+.column {
+    float: left;
+    width: 50%;
+    align-items: right;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .hero {
