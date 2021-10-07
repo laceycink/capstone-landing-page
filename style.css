@@ -1,5 +1,12 @@
 body {
     font-family: sans-serif;
+    color:black;
+}
+
+.textColumn{
+    position: absolute;
+    left: 65%;
+    top: 550px;
 }
 
 .hero {
