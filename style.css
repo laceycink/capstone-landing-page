@@ -57,11 +57,60 @@ body {
     clear: both;
 }
 
+.row4:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row5 {
+    background-color: black;
+}
+
+.column6 h2 {
+    text-align:center;
+}
+
+
+.column6 {
+    float: left;
+    width: 100%;
+    align-items: center;
+    margin-right: 5px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+}
+
+.column8 {
+    float: left;
+    width: 100%;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+}
+
+.arrow {
+    margin-left: 100px;
+    letter-spacing: 410px;
+    text-align: center;
+
+}
+
 .scrolling-wrapper {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-  
+    margin-left: 100px;
+    margin-right: 100px;
+    -webkit-overflow-scrolling: touch;
+}
+
 .card {
-      display: inline-block;
-    }
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 35px;
+    vertical-align: top;
+}
